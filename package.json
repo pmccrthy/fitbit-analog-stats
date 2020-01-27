@@ -1,0 +1,27 @@
+{
+  "fitbit": {
+    "appUUID": "772794d1-9757-4dff-9304-0b07c4c24a92",
+    "appType": "clockface",
+    "appDisplayName": "Analog Stats",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "meson",
+      "gemini",
+      "mira"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Analog Stats"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  }
+}

@@ -1,0 +1,85 @@
+.markercolour {
+  fill: #c7c7c7;
+}
+
+.accentcolour {
+  fill: #2F77D4;
+}
+
+.statsicon {
+  x: 50%-17;
+  y: 18%;
+  width: 34;
+  height: 34;
+}
+
+.statsfield {
+  x: 50%+1; 
+  y: 76%;
+  text-anchor: middle;
+  font-family: Seville-Regular;
+  font-size: 26;
+}
+
+.maindialtwelve {
+  y: -48%;
+  width: 2;
+  height: 20;
+}
+
+.maindialquarter {
+  x: 0%-1;
+  y: -48%;
+  width: 3;
+  height: 20;
+}
+
+.maindialfive {
+  x: 0%-1;
+  y: -48%;
+  width: 3;
+  height: 15;
+}
+
+.maindialminute {
+  x: 0%-1;
+  y: -48%;
+  width: 3;
+  height: 5;
+}
+
+.daymonthtext {
+  font-family: Seville-Regular;
+  font-size: 26;
+  text-anchor: middle;
+  text-length: 8;
+}
+
+.datetext {
+  font-family: Seville-Regular;
+  font-size: 46;
+  text-anchor: middle;
+  text-length: 4;
+}
+
+.hourmarker24text {
+  x: 0%;
+  y: -36%;
+  font-family: Seville-Bold;
+  font-size: 15;
+  text-anchor: middle;
+}
+
+.hourmarker24tickS {
+  x: 0%;
+  y: -45%;
+  width: 2;
+  height: 2; 
+}
+
+.hourmarker24tickL {
+  x: 0%;
+  y: -45%;
+  width: 2;
+  height: 6; 
+}
